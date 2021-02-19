@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <base href="./">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio rboud</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    /> 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./img/icon.png" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo" id="home">
+        <a href="./">
+          <img src="./img/devrboud.png" alt="" />
+        </a>
+      </div>
+
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">À propos de moi</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Ce que je fais</a>
+          </li>
+          <li class="nav__item">
+            <a href="#cv" class="nav__link">Curriculum Vitae</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Mon travail</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">
+        Qui est <strong>rboud</strong> ?
+      </h2>
+      <p class="section__subtitle section__subtitle--about">
+        Developpeur & monteur vidéo
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Je suis un étudiant marocain âgé de 18 ans. J’ai obtenu mon bac au
+          lycée Paul Valéry de Meknès.
+        </p>
+        <p>
+          Je suis passionné par la programmation et le montage vidéo, en effet
+          j’ai commencé la programmation à l’âge de 11 ans. Et j’aimerais bien
+          en faire mon métier.
+        </p>
+      </div>
+      <img src="./img/rboud-01.png" alt="" class="about-me__img" />
+    </section>
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">Ce que je fais</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Programmation Python</h3>
+          <p>
+            J’ai <b>3 ans</b> d’expérience en programmation Python et je
+            maîtrise tous les modules préinstallés.
+          </p>
+          <p>
+            Je maîtrise aussi les différents modules d'intelligence artificielle
+            et d'analyse de données <b>(scikitlearn, numpy, pandas etc…)</b>, le
+            développement web avec <b>Flask</b> et le développement mobile avec
+            <b>Kivy</b> et <b>KivyMD</b>
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Web & Design</h3>
+          <p>
+            Je maîtrise <b>l'html</b> et le <b>css</b>, et je débute en
+            <b>Javascript</b>.
+          </p>
+          <p>
+            Je suis entrain d'améliorer mes connaissances en javascript. Mon
+            objectif est de maitriser aussi bien Python que Javascript.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Montage vidéo</h3>
+          <p>
+            Option cinéma de mon lycée, je pense avoir acquis toute la théorie
+            et l'expérience necéssaires pour pouvoir monter une bonne vidéo.
+          </p>
+          <p>
+            J'ai <b>3 ans</b> d'expérience dans l'utilisation du logiciel
+            <b>Adobe Premier Pro</b> et j'ai un niveau moyen en
+            <b>Adobe After Effect</b>.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <a href="#work" class="btn">Mon Travail</a>
+    </section>
+
+    <!-- Intro -->
+    <section class="intro" id="cv">
+      <h1 class="section__title section__title--intro">
+        Qui est <strong>Réda ?</strong>
+      </h1>
+      <a
+        href="https://drive.google.com/file/u/0/d/1kO-x69Xrdyl3CDc6vC3gq1GlHS5rxq_T/view"
+        target="_blank"
+      >
+        <p class="section__subtitle section__subtitle--intro">
+          Curriculum Vitae
+        </p>
+      </a>
+      <iframe
+        class="intro__img"
+        src="https://drive.google.com/file/d/1kO-x69Xrdyl3CDc6vC3gq1GlHS5rxq_T/preview"
+      ></iframe>
+      <!--<img class ="intro__img" src="img/rboud-01.png" alt="rboud icon">-->
+    </section>
+
+    <!-- My work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">Mon travail</h2>
+      <p class="section__subtitle section__subtitle--work">
+        Un échantillon de mon travail
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio Item -->
+        <a
+          href="http://rboud.pythonanywhere.com/calcul"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="./img/portfolio-01.jpg"
+            alt="calcul du bac 2020"
+            class="portfolio__img"
+          />
+        </a>
+        <!-- Portfolio Item -->
+        <a
+          href="https://drive.google.com/drive/folders/1aVEEq0tSTPQGzcoppwLuDx_6mee0uwO5?usp=sharing"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="./img/projet_badr.png"
+            alt="sport editing"
+            class="portfolio__img"
+          />
+        </a>
+        <!-- Portfolio Item -->
+        <a
+          href="https://drive.google.com/file/d/1dfVXgwMwaKrexy4eXHiT22qn94j1YxH9/view?usp=sharing"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="./img/mon_f3c.png"
+            alt="traveling editing"
+            class="portfolio__img"
+          />
+        </a>
+        <!-- Portfolio Item -->
+        <a
+          href="https://www.youtube.com/watch?v=ZZGanc5XMgY"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="./img/projet_tpe.png"
+            alt="scientific editing"
+            class="portfolio__img"
+          />
+        </a>
+        <!-- Portfolio Item -->
+        <a
+          href="https://github.com/rboudrouss"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="./img/projet_github.png"
+            alt="check my github"
+            class="portfolio__img"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:rboudrouss@gmail.com" class="footer__link"
+        >rboudrouss@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/rboudrouss"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.facebook.com/rboudrouss/"
+            target="_blank"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.youtube.com/channel/UCi-99XLL6EdjUwoeoLAi-PQ"
+            target="_blank"
+          >
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./js/index.js"/></script>
+  </body>
+</html>
